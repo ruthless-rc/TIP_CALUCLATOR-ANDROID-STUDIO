@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NUMERIC KEYBOARD"
+        android:textSize="35dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="35dp"/>
+
+    <EditText
+        android:id="@+id/num"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:inputType="number"
+        android:hint="enter number" />
+
+    <TextView
+        android:id="@+id/ans"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="50dp"/>
+
+    <SeekBar
+        android:id="@+id/seekBar"
+        android:layout_width="87dp"
+        android:layout_height="60dp"
+        android:min="0"
+        android:max="28" />
+
+   <TextView
+       android:id="@+id/seekBarValue"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+
+       android:layout_marginLeft="150dp"
+       android:textSize="50dp"/>
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="110dp"
+        android:text="TAP TO PRINT"/>
+    <TextView
+        android:id="@+id/bill"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>
